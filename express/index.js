@@ -6,6 +6,6 @@ app.get("/", (req, res) => {
   res.send({ hello: "world" });
 });
 
-app.listen(3000, () => {
+app.listen(3001, () => {
   console.log(`server listen on port 3001`);
 });
