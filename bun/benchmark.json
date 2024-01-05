@@ -1,0 +1,407 @@
+[
+  {
+    "runner": "Nodejs (Native)",
+    "concurrency": 100,
+    "max_requests": 1000,
+    "total_errors": "0",
+    "total_time": "0.311",
+    "mean_latency": "86.9",
+    "effective_rps": "3215"
+  },
+  {
+    "runner": "Nodejs (Native)",
+    "concurrency": 100,
+    "max_requests": 10000,
+    "total_errors": "0",
+    "total_time": "1.679",
+    "mean_latency": "63.9",
+    "effective_rps": "5956"
+  },
+  {
+    "runner": "Nodejs (Native)",
+    "concurrency": 100,
+    "max_requests": 100000,
+    "total_errors": "0",
+    "total_time": "12.896",
+    "mean_latency": "50.8",
+    "effective_rps": "7754"
+  },
+  {
+    "runner": "Nodejs (Native)",
+    "concurrency": 100,
+    "max_requests": 1000000,
+    "total_errors": "0",
+    "total_time": "151.168",
+    "mean_latency": "59.9",
+    "effective_rps": "6615"
+  },
+  {
+    "runner": "Nodejs (Native)",
+    "concurrency": 1000,
+    "max_requests": 1000,
+    "total_errors": "0",
+    "total_time": "0.384",
+    "mean_latency": "275.6",
+    "effective_rps": "2604"
+  },
+  {
+    "runner": "Nodejs (Native)",
+    "concurrency": 1000,
+    "max_requests": 10000,
+    "total_errors": "0",
+    "total_time": "3.752",
+    "mean_latency": "649.5",
+    "effective_rps": "2665"
+  },
+  {
+    "runner": "Nodejs (Native)",
+    "concurrency": 1000,
+    "max_requests": 100000,
+    "total_errors": "222",
+    "total_time": "28.259",
+    "mean_latency": "665.6",
+    "effective_rps": "3539"
+  },
+  {
+    "runner": "Nodejs (Express)",
+    "concurrency": 100,
+    "max_requests": 1000,
+    "total_errors": "0",
+    "total_time": "0.453",
+    "mean_latency": "134.8",
+    "effective_rps": "2208"
+  },
+  {
+    "runner": "Nodejs (Express)",
+    "concurrency": 100,
+    "max_requests": 10000,
+    "total_errors": "0",
+    "total_time": "2.93",
+    "mean_latency": "113.1",
+    "effective_rps": "3413"
+  },
+  {
+    "runner": "Nodejs (Express)",
+    "concurrency": 100,
+    "max_requests": 100000,
+    "total_errors": "0",
+    "total_time": "23.854",
+    "mean_latency": "94.5",
+    "effective_rps": "4192"
+  },
+  {
+    "runner": "Nodejs (Express)",
+    "concurrency": 100,
+    "max_requests": 1000000,
+    "total_errors": "0",
+    "total_time": "284.65",
+    "mean_latency": "113.3",
+    "effective_rps": "3513"
+  },
+  {
+    "runner": "Nodejs (Express)",
+    "concurrency": 1000,
+    "max_requests": 1000,
+    "total_errors": "0",
+    "total_time": "1.335",
+    "mean_latency": "517.3",
+    "effective_rps": "749"
+  },
+  {
+    "runner": "Nodejs (Express)",
+    "concurrency": 1000,
+    "max_requests": 10000,
+    "total_errors": "0",
+    "total_time": "7.653",
+    "mean_latency": "1082",
+    "effective_rps": "1307"
+  },
+  {
+    "runner": "Nodejs (Express)",
+    "concurrency": 1000,
+    "max_requests": 100000,
+    "total_errors": "468",
+    "total_time": "55.987",
+    "mean_latency": "1165.8",
+    "effective_rps": "1786"
+  },
+  {
+    "runner": "Bun (express.js)",
+    "concurrency": 100,
+    "max_requests": 1000,
+    "total_errors": "0",
+    "total_time": "0.3",
+    "mean_latency": "93.2",
+    "effective_rps": "3333"
+  },
+  {
+    "runner": "Bun (express.js)",
+    "concurrency": 100,
+    "max_requests": 10000,
+    "total_errors": "0",
+    "total_time": "1.564",
+    "mean_latency": "59.1",
+    "effective_rps": "6394"
+  },
+  {
+    "runner": "Bun (express.js)",
+    "concurrency": 100,
+    "max_requests": 100000,
+    "total_errors": "0",
+    "total_time": "11.207",
+    "mean_latency": "44.1",
+    "effective_rps": "8923"
+  },
+  {
+    "runner": "Bun (express.js)",
+    "concurrency": 100,
+    "max_requests": 1000000,
+    "total_errors": "0",
+    "total_time": "124.879",
+    "mean_latency": "49.4",
+    "effective_rps": "8008"
+  },
+  {
+    "runner": "Bun (express.js)",
+    "concurrency": 1000,
+    "max_requests": 1000,
+    "total_errors": "0",
+    "total_time": "0.405",
+    "mean_latency": "306",
+    "effective_rps": "2469"
+  },
+  {
+    "runner": "Bun (express.js)",
+    "concurrency": 1000,
+    "max_requests": 10000,
+    "total_errors": "0",
+    "total_time": "2.451",
+    "mean_latency": "660.9",
+    "effective_rps": "4080"
+  },
+  {
+    "runner": "Bun (express.js)",
+    "concurrency": 1000,
+    "max_requests": 100000,
+    "total_errors": "0",
+    "total_time": "13.099",
+    "mean_latency": "459.2",
+    "effective_rps": "7634"
+  },
+  {
+    "runner": "Bun (express.js)",
+    "concurrency": 1000,
+    "max_requests": 1000000,
+    "total_errors": "270",
+    "total_time": "167.89",
+    "mean_latency": "504.4",
+    "effective_rps": "5956"
+  },
+  {
+    "runner": "Bun (Native)",
+    "concurrency": 100,
+    "max_requests": 1000,
+    "total_errors": "0",
+    "total_time": "0.449",
+    "mean_latency": "139",
+    "effective_rps": "2227"
+  },
+  {
+    "runner": "Bun (Native)",
+    "concurrency": 100,
+    "max_requests": 10000,
+    "total_errors": "0",
+    "total_time": "3.105",
+    "mean_latency": "119.4",
+    "effective_rps": "3221"
+  },
+  {
+    "runner": "Bun (Native)",
+    "concurrency": 100,
+    "max_requests": 100000,
+    "total_errors": "0",
+    "total_time": "27.543",
+    "mean_latency": "109.3",
+    "effective_rps": "3631"
+  },
+  {
+    "runner": "Bun (Native)",
+    "concurrency": 1000,
+    "max_requests": 1000,
+    "total_errors": "0",
+    "total_time": "0.606",
+    "mean_latency": "415.8",
+    "effective_rps": "1650"
+  },
+  {
+    "runner": "Bun (Native)",
+    "concurrency": 1000,
+    "max_requests": 10000,
+    "total_errors": "0",
+    "total_time": "4.628",
+    "mean_latency": "1111.7",
+    "effective_rps": "2161"
+  },
+  {
+    "runner": "Bun (Native)",
+    "concurrency": 1000,
+    "max_requests": 100000,
+    "total_errors": "0",
+    "total_time": "33.621",
+    "mean_latency": "1068.9",
+    "effective_rps": "2974"
+  },
+  {
+    "runner": "Bun (Native)",
+    "concurrency": 1000,
+    "max_requests": 1000000,
+    "total_errors": "580",
+    "total_time": "400.162",
+    "mean_latency": "1378.3",
+    "effective_rps": "2499"
+  },
+  {
+    "runner": "Bun (express.ts)",
+    "concurrency": 100,
+    "max_requests": 1000,
+    "total_errors": "0",
+    "total_time": "0.31",
+    "mean_latency": "97.9",
+    "effective_rps": "3226"
+  },
+  {
+    "runner": "Bun (express.ts)",
+    "concurrency": 100,
+    "max_requests": 10000,
+    "total_errors": "0",
+    "total_time": "1.509",
+    "mean_latency": "57.1",
+    "effective_rps": "6627"
+  },
+  {
+    "runner": "Bun (express.ts)",
+    "concurrency": 100,
+    "max_requests": 100000,
+    "total_errors": "0",
+    "total_time": "11.256",
+    "mean_latency": "44.3",
+    "effective_rps": "8884"
+  },
+  {
+    "runner": "Bun (express.ts)",
+    "concurrency": 100,
+    "max_requests": 1000000,
+    "total_errors": "0",
+    "total_time": "124.101",
+    "mean_latency": "49.1",
+    "effective_rps": "8058"
+  },
+  {
+    "runner": "Bun (express.ts)",
+    "concurrency": 1000,
+    "max_requests": 1000,
+    "total_errors": "0",
+    "total_time": "0.399",
+    "mean_latency": "290.6",
+    "effective_rps": "2506"
+  },
+  {
+    "runner": "Bun (express.ts)",
+    "concurrency": 1000,
+    "max_requests": 10000,
+    "total_errors": "0",
+    "total_time": "2.581",
+    "mean_latency": "727.1",
+    "effective_rps": "3874"
+  },
+  {
+    "runner": "Bun (express.ts)",
+    "concurrency": 1000,
+    "max_requests": 100000,
+    "total_errors": "0",
+    "total_time": "12.428",
+    "mean_latency": "442.7",
+    "effective_rps": "8046"
+  },
+  {
+    "runner": "Bun (express.ts)",
+    "concurrency": 1000,
+    "max_requests": 1000000,
+    "total_errors": "0",
+    "total_time": "151.034",
+    "mean_latency": "509",
+    "effective_rps": "6621"
+  },
+  {
+    "runner": "Go (Native)",
+    "concurrency": 100,
+    "max_requests": 1000,
+    "total_errors": "0",
+    "total_time": "0.394",
+    "mean_latency": "130.3",
+    "effective_rps": "2538"
+  },
+  {
+    "runner": "Go (Native)",
+    "concurrency": 100,
+    "max_requests": 10000,
+    "total_errors": "0",
+    "total_time": "1.335",
+    "mean_latency": "49.1",
+    "effective_rps": "7491"
+  },
+  {
+    "runner": "Go (Native)",
+    "concurrency": 100,
+    "max_requests": 100000,
+    "total_errors": "0",
+    "total_time": "8.397",
+    "mean_latency": "32.6",
+    "effective_rps": "11909"
+  },
+  {
+    "runner": "Go (Native)",
+    "concurrency": 100,
+    "max_requests": 1000000,
+    "total_errors": "0",
+    "total_time": "85.757",
+    "mean_latency": "33.6",
+    "effective_rps": "11661"
+  },
+  {
+    "runner": "Go (Native)",
+    "concurrency": 1000,
+    "max_requests": 1000,
+    "total_errors": "0",
+    "total_time": "0.38",
+    "mean_latency": "288.7",
+    "effective_rps": "2632"
+  },
+  {
+    "runner": "Go (Native)",
+    "concurrency": 1000,
+    "max_requests": 10000,
+    "total_errors": "0",
+    "total_time": "1.641",
+    "mean_latency": "561.9",
+    "effective_rps": "6094"
+  },
+  {
+    "runner": "Go (Native)",
+    "concurrency": 1000,
+    "max_requests": 100000,
+    "total_errors": "0",
+    "total_time": "9.539",
+    "mean_latency": "372.2",
+    "effective_rps": "10483"
+  },
+  {
+    "runner": "Go (Native)",
+    "concurrency": 1000,
+    "max_requests": 1000000,
+    "total_errors": "0",
+    "total_time": "94.766",
+    "mean_latency": "377.1",
+    "effective_rps": "10552"
+  }
+]
