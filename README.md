@@ -117,3 +117,46 @@ bombardier -c <concurrent> -n <max request> <url>
 |           |            | 1000     | 9161    | 38.83    | 19411   | 141.28   |
 | Granian   |            | 500      | 7849    | 72.57    | 19314   | 101.84   |
 |           |            | 1000     | 13308   | 47.20    | 17696   | 122.63   |
+
+## Result 3
+
+```markdown
+Server: Localhost
+OS: macOS Sonoma v.14.1
+CPU: 8
+Threads: 16
+CPU Model: Apple M2
+Python: 3.10
+Go: 1.21.6
+Node: 16.16.0
+```
+
+### Autocannon 3
+
+```bash
+autocannon -c <concurrent> -p <max request> <url>
+```
+
+| Framework | Concurrent | Pipeline | Requests (k) | Time (s) | Size (MB) |
+| --------- | ---------- | -------- | ------------ | -------- | --------- |
+| Fastify   | 500        | 500      | 1017         | 210.19   | 14.3      |
+|           |            | 1000     | 1260         | 282.2    | 22.6      |
+| Go Gin    |            | 500      | 275          | 10.1     | 97.7      |
+|           |            | 1000     | 523          | 64.13    | 68.2      |
+| Granian   |            | 500      | 371          | 10.67    | 64.9      |
+|           |            | 1000     | 550          | 10.31    | 60.3      |
+
+### Bombardier 3
+
+```bash
+bombardier -c <concurrent> -n <max request> <url>
+```
+
+| Framework | Concurrent | requests | Avg (s) | Avg (ms) | Max (rps) | Max (ms) |
+| --------- | ---------- | -------- | ------- | -------- | --------- | -------- |
+| Fastify   | 500        | 500      | 15567   | 8.08     | 26814     | 36.40    |
+|           |            | 1000     | 34977   | 3.70     | 47879     | 31.10    |
+| Go Gin    |            | 500      | 24388   | 6.38     | 37106     | 26.60    |
+|           |            | 1000     | 34138   | 3.85     | 47391     | 10.18    |
+| Granian   |            | 500      | 16642   | 11.96    | 42383     | 41.88    |
+|           |            | 1000     | 13308   | 4.26     | 17696     | 23.63    |
