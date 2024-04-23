@@ -27,6 +27,7 @@ Runner:
 - flask
 - fastapi
 - robyn
+- native (simple python server)
 
 Runner:
 
